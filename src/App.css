@@ -1,0 +1,21 @@
+
+p{
+    float: right;
+}
+.firstpara{
+    float: left;
+}
+
+
+@media screen and (max-width:768px){
+    p{
+        text-align: center;
+        float: none !important;
+        
+    }
+    span{
+        display: block !important;
+        text-align: center;
+        margin: 10px;
+    }
+}
